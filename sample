@@ -20,11 +20,11 @@ public class CreateWebSource
     System.out.println( "" );#
 
 #    try
-    {
-      if ( args == null || args.length != 4 )
-      {
-        System.out.println(
-          "Usage:\n  CreateWebSource <webServiceURL> <userName> <password> <webSourceURL>"
+#    {
+#      if ( args == null || args.length != 4 )
+#      {
+#        System.out.println(
+#          "Usage:\n  CreateWebSource <webServiceURL> <userName> <password> <webSourceURL>"
         );
       }
       else
